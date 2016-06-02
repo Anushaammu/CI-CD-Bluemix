@@ -50,14 +50,14 @@
    
    
    <target name="warfile">
-<war destfile="C:\Users\miracle\Desktop\JAR_APP\bluemix\OnPremTOCloud(1)\JavaHelloWorldApp.war" webxml="C:\Users\miracle\Desktop\JAR_APP\bluemix\OnPremTOCloud(1)\WebContent\WEB-INF\web.xml">
+<war destfile="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\JavaHelloWorldApp.war" webxml="C:\Users\miracle\Desktop\JAR_APP\bluemix\OnPremTOCloud(1)\WebContent\WEB-INF\web.xml">
 <!--Give the WebContent folder path-->
-<fileset dir="C:\Users\miracle\Desktop\JAR_APP\bluemix\OnPremTOCloud(1)\WebContent">
+<fileset dir="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\WebContent">
 <include name="**/*.*"/>
 </fileset>
 <!--Give the lib folder path-->
 <!--Give the classes folder path-->
-<classes dir="C:\Users\miracle\Desktop\JAR_APP\bluemix\OnPremTOCloud(1)\src\com\ibm\cloudoe\samples"/>
+<classes dir="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\src\com\ibm\cloudoe\samples"/>
 </war>
 </target>	
 

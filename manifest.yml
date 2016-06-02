@@ -4,7 +4,7 @@ applications:
   memory: 512M
   instances: 1
   domain: au-syd.mybluemix.net
-  name: OnPremTOClouddevops1
-  host: OnPremTOClouddevops1
+  name: DevopsinBluemix
+  host: DevopsinBluemix
   disk_quota: 1024M
   
